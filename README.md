@@ -13,10 +13,13 @@ This project aims to build a flexible robotic control system. By integrating YOL
 2.  **Continuous Motion Control via Voice (Voice Control)**
 3.  **Coordinated Leader-Follower Arm Teleoperation**
 
-![Real-time object detection and base following based on YOLO](assets/visual_tracking.mp4)
-![Real-time object detection and base following based on YOLO](assets/waving.mp4)
-![Voice command parsing and continuous closed-loop motion](assets/voice.mp4)
-![SO100 master arm synchronously controlling the LeKiwi manipulator](assets/teleoperate.mp4)
+https://github.com/user-attachments/assets/060ac888-2e64-4994-b4d6-826be61cbf29
+
+https://github.com/user-attachments/assets/194a42d2-cbce-4247-8824-6179ca3f02e3
+
+https://github.com/user-attachments/assets/ea9d2d42-c9f5-44e6-9dd3-1b15f5072781
+
+https://github.com/user-attachments/assets/fece67ac-50d8-4fa1-815f-a83e830085e3
 
 ## 🛠️ Architecture
 
@@ -46,7 +49,7 @@ The project log details the process of making the "black-box system" transparent
 │   └── PROJECT_LOG.md         # Detailed development log & technical analysis
 │   └── PROJECT_LOG_CN.md      # Chinese version
 ├── assets/
-│   └── demo_gifs/             # Demonstration GIFs
+│   └── demo_mp4/              # Demonstration videos
 └── requirements.txt           # Environment dependencies (lerobot, torch, opencv, etc.)
 ```
 
@@ -64,3 +67,4 @@ While this project successfully achieves multimodal closed-loop control, the cur
 
 - **Hugging Face LeRobot**: Provides the core low-level drivers and data structure support.
 - This project serves as the final project for the *Introduction to Embodied AI* course. Thanks to the course team for providing the hardware platform and foundational template support.
+
