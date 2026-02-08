@@ -1,0 +1,27 @@
+# --- Core AI & Robot Framework ---
+# 项目基于 LeRobot，建议直接安装。如果你在本地魔改了 lerobot 源码，请改用 -e .
+lerobot==0.4.2
+torch==2.7.1
+torchvision==0.22.1
+numpy==2.2.6
+
+# --- Computer Vision ---
+opencv-python==4.12.0.88
+pillow==12.0.0
+
+# --- Voice Interaction ---
+SpeechRecognition==3.14.4
+zhconv==1.4.3
+pyaudio==0.2.14
+# sounddevice 和 soundfile 是处理音频流的底层库，建议加上以防万一
+sounddevice==0.5.3
+soundfile==0.13.1
+
+# --- Hardware & Drivers ---
+# LeKiwi 机械臂驱动
+feetech-servo-sdk==1.0.0
+pyserial==3.5
+
+# --- Utilities & Visualization ---
+rerun-sdk==0.26.2
+tqdm==4.67.1
