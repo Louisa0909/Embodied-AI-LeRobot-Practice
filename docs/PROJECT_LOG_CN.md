@@ -135,15 +135,14 @@ class ContinuousVoiceRecognizer:
 尽管本项目成功实现了多模态的闭环控制，但目前的技术路线仍存在以下优化空间：
 
 - **从模块化到端到端 (Towards End-to-End)**
-当前系统依赖 Rule-based 逻辑。未来计划采集人类遥操作数据，训练 Diffusion Policy 或 ACT 策略网络，实现从“图像像素”直接到“关节动作”的端到端控制。
+当前系统依赖 Rule-based 逻辑。更进一步，或可引入 Diffusion Policy 或 ACT 策略网络，实现从“图像像素”直接到“关节动作”的端到端控制。
 
 - **增强抗干扰能力**
-目前的语音模块在嘈杂环境下识别率下降。计划引入本地部署的 Whisper Tiny 模型替代云端 API，降低延迟并提升抗噪性。
+目前的语音模块在嘈杂环境下识别率下降。或许可以引入本地部署的 Whisper Tiny 模型替代云端 API，降低延迟并提升抗噪性。
 
-- **Sim2Real 迁移**
-引入 Isaac Gym 仿真环境，在虚拟环境中预训练导航策略，再迁移至实体机器人，降低硬件损耗风险。
 
 ## 7. 参考资料 (References)
 *   LeRobot Framework: https://github.com/huggingface/lerobot
 *   YOLOv8: Ultralytics Real-time Object Detection.
+
 *   Course: Embodied AI Introduction (Final Project).
